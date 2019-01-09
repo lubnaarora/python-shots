@@ -1,0 +1,22 @@
+## String Validation
+if __name__ == '__main__':
+    s = input()
+    # alphanmeric_Characters
+    print (any(char.isalnum() for char in s))
+    
+    
+    # alphabetical_Characters
+    print (any(char.isalpha() for char in s))
+        
+    # any digits
+    print (any(char.isdigit() for char in s))
+        
+    # Lower_case Characters
+    print (any(char.islower() for char in s))
+  
+    # Upper_case Characters
+    print (any(char.isupper() for char in s))
+   
+   
+   
+   
