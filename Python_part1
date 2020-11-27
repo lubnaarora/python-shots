@@ -1,0 +1,56 @@
+Conditional Expressions
+
+
+age = 10
+
+if age > 18 :
+    print(" You are officially eligible for marriage !!!! ")
+else:
+    print(" You are just a kid !")
+
+-----------------------------------------------------------------------------------------
+
+
+age = 25
+gender = "female"
+
+if age > 27 and gender == "male" :
+    print(" He is still settling in ... ")
+elif age > 18 and gender == "female" :
+    print(" Bechari ki shadi nahi ho paa rahi !")
+
+-----------------------------------------------------------------------------------------
+
+
+Loops 
+# what's in my bag !!!!
+
+1.
+Bag = ['HouseKey','LipBalm','Charger','Novel','MetroCard1','MetroCard2','Perfume']
+for items in Bag:
+    print(items)
+	
+
+2.	
+count = 0
+
+for digit in 'q':
+    count = count+1
+
+print("Length of the Array")
+print(count)
+
+3.
+count = 0
+
+for i in range(1,31):
+    count = count +1
+    if( count == 6 ):
+        print("Weekend")
+        print("----------------------------------")
+        print(i)
+        print(i+1)
+        print("----------------------------------")
+        count= 0
+    else:
+        print(i)
